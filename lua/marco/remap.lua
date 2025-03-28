@@ -18,4 +18,6 @@ vim.keymap.set('n', 'C-c', '<ESQ>')
 vim.keymap.set('i', 'C-c', '<ESQ>')
 vim.keymap.set('v', 'C-c', '<ESQ>')
 
-vim.keymap.set('i', '{}', '{<CR>}<left><CR><up><tab>')
+vim.keymap.set('i', '{<CR>', '{<CR>}<left><CR><up><tab>')
+vim.keymap.set('i', '{<CR>', '{<CR>}<left><CR><up><tab>')
+vim.keymap.set('i', '""', '""<left>')
